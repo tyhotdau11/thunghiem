@@ -1,0 +1,32 @@
+
+<div class="row cardContainer show-hide-animation" ng-controller="card">
+	<div class="col-sm-6 col-md-4 col-lg-3" ng-repeat="x in LOAD">
+		<div class="card" >
+		   <a href="#"> <button class="btn close cardClose" title="Delete Customer">&times;</button></a>
+			<div class="cardHeader"><a href="#" class="white">{{x.lname}}<i class="icon-edit icon-white editIcon"></i></a></div>
+			<div class="cardBody">
+				<div class="clearfix">
+					<div class="pull-left cardBodyLeft">
+						<a href="#" class="white"><img src="Content/images/female.png" class="cardImage" /></a>
+					</div>
+					<div class="pull-left cardBodyRight">
+						<div class="cardBodyContent">{{x.city}}</div>
+						<div>
+							<a href="" class="btn-link">
+								99
+								<span>Orders</span>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+<!--<script src="../Scripts/angular.min.js"></script>-->
+<script>
+	
+	
+	
+</script>
+</div>
+
